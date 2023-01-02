@@ -131,6 +131,7 @@ h2 {
 }
 
 .mainContent {
+  width: 100%;
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -186,25 +187,25 @@ h2 {
 }
 
 .backgroundFooter {
-  background-color: #030303;
+  background-color: black;
   width: 100%;
   padding: 100px 0px;
 }
 
 .backgroundFooter img {
-  width: 100%;
+  width: 300px;
   height: auto;
 }
 
 .textSobre {
-  width: 100%;
+  width: 550px;
 }
 
 .mainSobre {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 100%;
+  width: 1150px;
   margin: 0 auto;
   color: #ffffff;
 }
@@ -217,6 +218,7 @@ h2 {
 }
 
 .textSobre h5 {
+  width: 100%;
   letter-spacing: 2px;
   color: #ffffff;
   font-size: 30px;
