@@ -138,7 +138,7 @@ h2 {
 }
 
 .categotiacard {
-  width: 350px;
+  width: 100%;
   height: 500px;
   border: 2px solid transparent;
   border-radius: 10px;
@@ -192,19 +192,19 @@ h2 {
 }
 
 .backgroundFooter img {
-  width: 280px;
+  width: 100%;
   height: auto;
 }
 
 .textSobre {
-  width: 550px;
+  width: 100%;
 }
 
 .mainSobre {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 1130px;
+  width: 100%px;
   margin: 0 auto;
   color: #ffffff;
 }
