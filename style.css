@@ -204,7 +204,7 @@ h2 {
 .backgroundFooter {
   background-color: black;
   width: 100%;
-  padding: 100px 0px;
+  padding: 100px 100px;
 }
 
 .backgroundFooter img {
@@ -218,21 +218,20 @@ h2 {
 
 .mainSobre {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 1150px;
-  margin: 0 auto;
-  color: #ffffff;
+  height: 100%;
+  width: 100%;
 }
 
 .textSobre h2 {
+  padding-left: 50px;
   color: rgb(166, 228, 166);
-  font-size: 75px;
+  font-size: 80px;
   text-transform: capitalize;
   margin-bottom: 20px;
 }
 
 .textSobre h5 {
+  padding-left: 60px;
   width: 100%;
   letter-spacing: 2px;
   color: #ffffff;
@@ -242,9 +241,27 @@ h2 {
 }
 
 .textSobre p {
+  padding-left: 60px;
   color: rgb(223, 247, 223);
   letter-spacing: 1px;
   line-height: 28px;
   font-size: 18px;
   margin-bottom: 50px;
+}
+
+.btn-home {
+  align-items: flex-end;
+  display: flex;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 10px;
+  background-color: transparent;
+  border: 2px solid transparent;
+  color: rgb(157, 221, 166);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.btn-home:hover {
+  border-bottom: 2px solid rgb(166, 228, 166);
 }
