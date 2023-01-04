@@ -274,3 +274,30 @@ h2 {
 .btn-home:hover {
   border-bottom: 2px solid rgb(166, 228, 166);
 }
+
+@media (max-width: 630px) {
+  .gridContainer {
+    grid-template-areas:
+      none
+      "maincontent"
+      "sidebarcontent";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .grid-tile h2 {
+    justify-content: center;
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 658px) {
+  .textSobre h2 {
+    text-align: center;
+    justify-content: center;
+    font-size: 45px;
+  }
+}
