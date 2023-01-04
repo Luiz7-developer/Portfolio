@@ -4,6 +4,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  width: auto;
+  height: auto;
 }
 
 .alert {
@@ -120,7 +122,9 @@ h2 {
 /* CARDES */
 
 .grid-tile {
-  display: grid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   grid-template-columns: 3fr 1fr;
   grid-template-areas: "maincontent sidebarcontent";
   padding: 10px;
@@ -131,7 +135,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 80px;
+  font-size: 70px;
   color: #ffffff;
   text-align: center;
 }
